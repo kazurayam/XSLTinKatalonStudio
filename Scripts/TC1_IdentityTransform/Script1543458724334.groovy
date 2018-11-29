@@ -21,7 +21,7 @@ import com.kms.katalon.core.configuration.RunConfiguration
 
 Path projectDir = Paths.get(RunConfiguration.getProjectDir())
 Path inputXML = projectDir.resolve('src/test/resources/Input.xml')
-Path outputXML = projectDir.resolve('build/tmp/TC1_identityTransform.Output.xml')
+Path outputXML = projectDir.resolve('build/tmp/TC1/Output.xml')
 
 // create the identity transformer
 Transformer tr = CustomKeywords.'XSLTHelper.newIdentityTransformer'()

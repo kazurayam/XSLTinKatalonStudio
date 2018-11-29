@@ -21,7 +21,7 @@ import com.kms.katalon.core.configuration.RunConfiguration
 
 Path projectDir = Paths.get(RunConfiguration.getProjectDir())
 Path inputXML = projectDir.resolve('src/test/resources/Input.xml')
-Path outputXML = projectDir.resolve('build/tmp/TC2_replaceOrgnlTxId.Output.xml')
+Path outputXML = projectDir.resolve('build/tmp/TC2/Output.xml')
 
 // create the identity transformer
 String stylesheet = '''
