@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><CSC:SctScfBlkCdtTrf xmlns:CSC="urn:SctSCF:xsd:$SctScfBlkCdtTrf">
+  <CSC:SndgInst>CLEARINGXXX</CSC:SndgInst>
+  <CSC:RcvgInst>CMCIDEDDXXX</CSC:RcvgInst>
+  <CSC:SrvcID>INS</CSC:SrvcID>
+  <CSC:TstCode>P</CSC:TstCode>
+  <CSC:FType>SCF</CSC:FType>
+  <CSC:FileRef>0000000001921008</CSC:FileRef>
+  <CSC:RoutingInd>DIR</CSC:RoutingInd>
+  <CSC:FileBusDt>2017-08-10</CSC:FileBusDt>
+  <CSC:FileCycleNo>05</CSC:FileCycleNo>
+  <CSC:RsltnOfInvstgtn>
+    <Assgnmt xmlns="urn:iso:std:iso:20022:tech:xsd:camt.029.001.03">
+      <Id>12312</Id>
+      <Assgnr>
+        <Agt>
+          <FinInstnId>
+            <BIC>CMCIDEDDXXX</BIC>
+          </FinInstnId>
+        </Agt>
+      </Assgnr>
+      <Assgne>
+        <Agt>
+          <FinInstnId>
+            <BIC>MARKDEFF</BIC>
+          </FinInstnId>
+        </Agt>
+      </Assgne>
+      <CreDtTm>2017-08-02T17:30:00.292+02:00</CreDtTm>
+    </Assgnmt>
+    <Sts xmlns="urn:iso:std:iso:20022:tech:xsd:camt.029.001.03">
+      <Conf>RJCR</Conf>
+    </Sts>
+    <CxlDtls xmlns="urn:iso:std:iso:20022:tech:xsd:camt.029.001.03">
+      <TxInfAndSts>
+        <CxlStsId>123132</CxlStsId>
+        <OrgnlGrpInf>
+          <OrgnlMsgId>MSG12345678</OrgnlMsgId>
+          <OrgnlMsgNmId>pacs.008.001.02</OrgnlMsgNmId>
+        </OrgnlGrpInf>
+        <OrgnlEndToEndId>REF1432423</OrgnlEndToEndId>
+        <OrgnlTxId>VAR1</OrgnlTxId>
+        <TxCxlSts>RJCR</TxCxlSts>
+        <CxlStsRsnInf>
+          <Orgtr>
+            <Id>
+              <OrgId>
+                <BICOrBEI>CMCIDEDDXXX</BICOrBEI>
+              </OrgId>
+            </Id>
+          </Orgtr>
+          <Rsn>
+            <Prtry>NOOR</Prtry>
+          </Rsn>
+        </CxlStsRsnInf>
+        <OrgnlTxRef>
+          <IntrBkSttlmAmt Ccy="EUR">50.00</IntrBkSttlmAmt>
+          <IntrBkSttlmDt>2018-10-23</IntrBkSttlmDt>
+          <SttlmInf>
+            <SttlmMtd>CLRG</SttlmMtd>
+          </SttlmInf>
+          <Dbtr>
+            <Nm>Joe Johnson</Nm>
+            <PstlAdr>
+              <Ctry>DE</Ctry>
+              <AdrLine>Longest Str. 35</AdrLine>
+              <AdrLine>Munich, Germany</AdrLine>
+            </PstlAdr>
+          </Dbtr>
+          <DbtrAcct>
+            <Id>
+              <IBAN>DE13300209005001360096</IBAN>
+            </Id>
+          </DbtrAcct>
+          <DbtrAgt>
+            <FinInstnId>
+              <BIC>CMCIDEDD</BIC>
+            </FinInstnId>
+          </DbtrAgt>
+          <CdtrAgt>
+            <FinInstnId>
+              <BIC>COBADEFF</BIC>
+            </FinInstnId>
+          </CdtrAgt>
+          <Cdtr>
+            <Nm>Bill Morgan</Nm>
+            <PstlAdr>
+              <Ctry>DE</Ctry>
+              <AdrLine>Widest Str. 45, 80333</AdrLine>
+              <AdrLine>Munich, Germany</AdrLine>
+            </PstlAdr>
+          </Cdtr>
+          <CdtrAcct>
+            <Id>
+              <IBAN>DE75300209005001420090</IBAN>
+            </Id>
+          </CdtrAcct>
+        </OrgnlTxRef>
+      </TxInfAndSts>
+    </CxlDtls>
+  </CSC:RsltnOfInvstgtn>
+</CSC:SctScfBlkCdtTrf>
